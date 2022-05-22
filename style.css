@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Open+Sans:wght@300;400&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #2CBAE7;
+    color: white;
+}
+
+p {
+    line-height: 28px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+/* general classes */
+h1 {
+    font-size: 42px;
+}
+h2 {
+    font-size: 36px;
+}
+h3 {
+    font-size: 30px;
+}
+h4 {
+    font-size: 24px;
+}
+h5 {
+    font-size: 18px;
+}
+h6 {
+    font-size: 12px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+}
+.container {
+    margin: 0 auto;
+    width: 75%;
+}
+.sb{
+    justify-content: space-between;
+}
+
+/* extra style */
+.nav {
+    border-bottom: 1px white solid;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #2CBAE7;
+}
+#navdiv {
+    margin: 0 auto;
+    width: 75%;
+    justify-content: space-between; 
+}
+.navright{
+    padding: 0;
+}
+.navright a {
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 50px;
+    margin: none;
+    border-left: 0.5px white dotted;
+    border-right: 0.5px white dotted;
+}
+.navright a:hover {
+    background-color: white;
+    color: #2CBAE7;
+}
+.navleft {
+    justify-self: flex-end;
+}
+.navleft a {
+    display: inline-block;
+    padding: 10px 30px;
+}
+#home {
+    background-color: white;
+    color: #2CBAE7;
+}
+/* #home:hover {
+    background-color: #2CBAE7;
+    color: white;
+} */
+
+article {
+    padding: 60px 0 120px 0;
+    border-bottom: 0.5px white dotted;
+}
+.thriveLogo {
+    max-width: 100px;
+    height: auto;
+    width: 100%;
+}
+.arrow {
+    max-width: 60px;
+    height: auto;
+    width: 100%;
+}
+.content {
+    flex-direction: column;
+    align-items: flex-start;
+}
+.content img, h1{
+    margin: 24px 0;
+}
+.aside {
+    justify-self: flex-end;
+}
+.btn {
+    padding: 12px 64px;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    color: #2CBAE7;
+    cursor: pointer;
+    font-size: 18px;
+}
+.btn:hover {
+    background-color: #282a2b;
+}
+
+/* article-2 */
+
+.speechMarks {
+    max-width: 60px;
+    height: auto;
+    width: 100%;
+}
+#article2div {
+    margin-bottom: 1px 0;
+    padding: 20px 0 60px 0;
+    border-bottom: 0.5px white dotted;
+}
+#article2 p{
+    display: inline-block;
+    margin: 18px 0;
+}
+
+/* article 3 */
+
+.projectimg {
+    max-width: 600px;
+    height: auto;
+    width: 100%;
+}
+.article3 .aside {
+    align-self: flex-start;
+}
+.projects {
+    margin: 20px 0 40px 0;
+    padding: 20px 0 ;
+}
+.projects h3 {
+    margin-bottom: 8px;
+}
+/* article 4 */
+.article4 {
+    grid-template-columns: 40% 60%;
+}
+.timesheets {
+    max-width: 600px;
+    height: auto;
+    width: 100%;
+}
+.article4 .content{
+    align-self: flex-start;
+}
+.article4 .content div{
+    margin: 20px 0 40px 0;
+    padding: 20px 0 ;
+}
+.article4 .content div h3{
+    margin-bottom: 8px;
+}
+
+/* article 5 */
+.invoice {
+    max-width: 600px;
+    height: auto;
+    width: 100%;
+}
+.article5 .aside {
+    align-self: flex-start;
+}
+.projects {
+    margin: 20px 0 40px 0;
+    padding: 20px 0 ;
+}
+.projects h3 {
+    margin-bottom: 8px;
+}
+/* article-6 */
+.expenses {
+    max-width: 600px;
+    height: auto;
+    width: 100% ;
+}
+.article6 .aside {
+    align-self: flex-start;
+}
+.projects {
+    margin: 20px 0 40px 0;
+    padding: 20px 0 ;
+}
+.projects h3 {
+    margin-bottom: 8px;
+}
+
+/* article-7 */
+.article7 {
+    grid-template-columns: 40% 60%;
+}
+.todo {
+    max-width: 600px;
+    height: auto;
+    width: 100%;
+}
+.article7 .content{
+    align-self: flex-start;
+}
+.article7 .content div{
+    margin: 20px 0 40px 0;
+    padding: 20px 0 ;
+}
+.article7 .content div h3{
+    margin-bottom: 8px;
+}
+/* ARTICLE -8 */
+.article8 {
+    grid-template-columns: 40% 60%;
+}
+.quotes {
+    max-width: 600px;
+    height: auto;
+    width: 100%;
+}
+.article8 .content{
+    align-self: flex-start;
+}
+.article8 .content div{
+    margin: 20px 0 40px 0;
+    padding: 20px 0 ;
+}
+.article8 .content div h3{
+    margin-bottom: 8px;
+}
+.article8 .content .btn{
+    margin-bottom: 40px;
+}
+/* article-9 */
+.article9{
+    grid-template-columns: 40% 60%;
+}
+.btn-dsb {
+    padding: 10px 36px;
+    letter-spacing: 1px;
+    border: none;
+    background-color: white;
+    color: #2CBAE7;
+    cursor: pointer;
+    font-size: 14px;
+}
+#login-btn {
+    padding: 10px 36px;
+    font-size: 14px;
+}
+.aside {
+    margin-left: 20px;
+}
+.aside-top {
+    margin-bottom: 24px;
+}
+/* footer */
+footer {
+    padding: 80px 0 160px 0;
+}
+
+
+/* responsive design */
+
+@media (max-width: 1144px) {
+    .aside-bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn-dsb{
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 1000px) {
+    .nav {
+        width: 100%;
+        position: relative;
+    }
+    .navleft {
+        display: none;
+    }
+    #navdiv, .navleft, .navright{
+        flex-direction: column;
+        width: 100%;
+    }
+    #navdiv a {
+        width: 100%;
+        padding: 10px 50px;
+        border-top: 0.5px white dotted;
+        border-bottom: 0.5px white dotted;
+    }
+    .container {
+        width: 95%;
+    }
+}
+
+@media(max-width: 720px) {
+    h1 {
+        font-size: 38px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    .grid {
+        grid-template-columns: 100%;
+        justify-items: center;
+        align-items: center;
+    }
+    h1, h2, h3 {
+        margin: 10px 0;
+    }
+    .aside {
+        justify-self: center;
+        align-self: center;
+    }
+    .content {
+        justify-self: center;
+        align-self: center;
+    }
+    .article4 {
+        grid-template-columns: 100%;
+        align-items: center;
+    }
+    .article7 {
+        grid-template-columns: 100%;
+        align-items: center;
+    }
+    .article8 {
+        grid-template-columns: 100%;
+        align-items: center;
+    }
+}
